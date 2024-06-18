@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8966127f-03b2-4fd6-9f15-33d32a79c232" name="Changes" comment="refactor: reorganize project folders for improved structure">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ariel/modulo/introducaojava/manipulacaostringsedatas/ManipulacaoStringsEDatas.java" afterDir="false" />
+    <list default="true" id="8966127f-03b2-4fd6-9f15-33d32a79c232" name="Changes" comment="chore: update unversioned files">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ariel/modulo/introducaojava/lacosnumericos/LacosNumericos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,35 +41,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.EstruturasCondicionais.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ManipulacaoStringsEDatas.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OperadoresBooleanos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Variaveis.executor&quot;: &quot;Run&quot;,
-    &quot;Application.edu.ariel.modulo.introducaoaojava.estruturascondicionais.EstruturasCondicionais.executor&quot;: &quot;Run&quot;,
-    &quot;Application.edu.ariel.modulo.introducaojava.estruturascondicionais.EstruturasCondicionais.executor&quot;: &quot;Run&quot;,
-    &quot;Application.edu.ariel.modulo.introducaojava.operadoresbooleanos.OperadoresBooleanos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.edu.ariel.operadores.booleanos.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.edu.ariel.operadoresbooleanos.OperadoresBooleanos.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.EstruturasCondicionais.executor": "Run",
+    "Application.LacosNumericos.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.ManipulacaoStringsEDatas.executor": "Run",
+    "Application.OperadoresBooleanos.executor": "Run",
+    "Application.Variaveis.executor": "Run",
+    "Application.edu.ariel.modulo.introducaoaojava.estruturascondicionais.EstruturasCondicionais.executor": "Run",
+    "Application.edu.ariel.modulo.introducaojava.estruturascondicionais.EstruturasCondicionais.executor": "Run",
+    "Application.edu.ariel.modulo.introducaojava.operadoresbooleanos.OperadoresBooleanos.executor": "Run",
+    "Application.edu.ariel.operadores.booleanos.Main.executor": "Run",
+    "Application.edu.ariel.operadoresbooleanos.OperadoresBooleanos.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowRun.ShowToolbar": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
-  <component name="RunManager" selected="Application.ManipulacaoStringsEDatas">
-    <configuration name="EstruturasCondicionais" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.ariel.estruturascondicionais.EstruturasCondicionais" />
+}]]></component>
+  <component name="RunManager" selected="Application.LacosNumericos">
+    <configuration name="LacosNumericos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.ariel.modulo.introducaojava.lacosnumericos.LacosNumericos" />
       <module name="trilha-digital-coders-backend" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.ariel.estruturascondicionais.*" />
+          <option name="PATTERN" value="edu.ariel.modulo.introducaojava.lacosnumericos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LacosNumericos" />
         <item itemvalue="Application.ManipulacaoStringsEDatas" />
         <item itemvalue="Application.edu.ariel.modulo.introducaojava.operadoresbooleanos.OperadoresBooleanos" />
         <item itemvalue="Application.edu.ariel.modulo.introducaojava.estruturascondicionais.EstruturasCondicionais" />
         <item itemvalue="Application.edu.ariel.operadoresbooleanos.OperadoresBooleanos" />
-        <item itemvalue="Application.EstruturasCondicionais" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +212,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718713433781</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: add Java class file to explain String and Date manipulation">
+      <option name="closed" value="true" />
+      <created>1718717115832</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718717115832</updated>
+    </task>
+    <task id="LOCAL-00009" summary="chore: update unversioned files">
+      <option name="closed" value="true" />
+      <created>1718717409701</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718717409702</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -259,6 +276,8 @@
     <MESSAGE value="feat: add Java class file to explain conditional structures" />
     <MESSAGE value="chore: update workspace.xml configuration file" />
     <MESSAGE value="refactor: reorganize project folders for improved structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: reorganize project folders for improved structure" />
+    <MESSAGE value="feat: add Java class file to explain String and Date manipulation" />
+    <MESSAGE value="chore: update unversioned files" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: update unversioned files" />
   </component>
 </project>
