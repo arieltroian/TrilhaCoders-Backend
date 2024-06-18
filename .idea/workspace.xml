@@ -184,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718712387779</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="chore: update workspace.xml configuration file">
+      <option name="closed" value="true" />
+      <created>1718713183198</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718713183198</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,6 +239,7 @@
     <MESSAGE value="feat: add Java class file to explain boolean operators" />
     <MESSAGE value="feat: add Java class file to explain conditional structures" />
     <MESSAGE value="refactor: reorganize project folders for improved structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: reorganize project folders for improved structure" />
+    <MESSAGE value="chore: update workspace.xml configuration file" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: update workspace.xml configuration file" />
   </component>
 </project>

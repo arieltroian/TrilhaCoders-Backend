@@ -1,4 +1,4 @@
-package edu.ariel.modulo.introducaoaojava.estruturascondicionais;
+package edu.ariel.modulo.introducaojava.estruturascondicionais;
 
 public class EstruturasCondicionais {
     public static void main(String[] args) {

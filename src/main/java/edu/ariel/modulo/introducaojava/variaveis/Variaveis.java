@@ -1,4 +1,4 @@
-package edu.ariel.modulo.introducaoaojava.variaveis;
+package edu.ariel.modulo.introducaojava.variaveis;
 
 public class Variaveis {
     public static void main(String[] args) {

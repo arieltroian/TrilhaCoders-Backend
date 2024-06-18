@@ -1,4 +1,4 @@
-package edu.ariel.modulo.introducaoaojava.operadoresbooleanos;
+package edu.ariel.modulo.introducaojava.operadoresbooleanos;
 
 public class OperadoresBooleanos {
     public static void main(String[] args) {
