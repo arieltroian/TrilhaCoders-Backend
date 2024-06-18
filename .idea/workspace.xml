@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8966127f-03b2-4fd6-9f15-33d32a79c232" name="Changes" comment="feat: add Java class file to explain conditional structures">
+    <list default="true" id="8966127f-03b2-4fd6-9f15-33d32a79c232" name="Changes" comment="refactor: reorganize project folders for improved structure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ariel/estruturascondicionais/EstruturasCondicionais.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ariel/modulo/introducaoaojava/estruturascondicionais/EstruturasCondicionais.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ariel/operadoresbooleanos/OperadoresBooleanos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ariel/modulo/introducaoaojava/operadoresbooleanos/OperadoresBooleanos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ariel/variaveis/Variaveis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ariel/modulo/introducaoaojava/variaveis/Variaveis.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,44 +33,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.EstruturasCondicionais.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OperadoresBooleanos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Variaveis.executor&quot;: &quot;Run&quot;,
-    &quot;Application.edu.ariel.operadores.booleanos.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.edu.ariel.operadoresbooleanos.OperadoresBooleanos.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.EstruturasCondicionais.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.OperadoresBooleanos.executor": "Run",
+    "Application.Variaveis.executor": "Run",
+    "Application.edu.ariel.modulo.introducaoaojava.estruturascondicionais.EstruturasCondicionais.executor": "Run",
+    "Application.edu.ariel.operadores.booleanos.Main.executor": "Run",
+    "Application.edu.ariel.operadoresbooleanos.OperadoresBooleanos.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowRun.ShowToolbar": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
-  <component name="RunManager" selected="Application.EstruturasCondicionais">
+}]]></component>
+  <component name="RunManager" selected="Application.edu.ariel.modulo.introducaoaojava.estruturascondicionais.EstruturasCondicionais">
     <configuration name="EstruturasCondicionais" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.ariel.estruturascondicionais.EstruturasCondicionais" />
       <module name="trilha-digital-coders-backend" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="edu.ariel.estruturascondicionais.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.ariel.tema.introjava.Main" />
-      <module name="trilha-digital-coders-backend" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.ariel.tema.introjava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,6 +92,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="edu.ariel.modulo.introducaoaojava.estruturascondicionais.EstruturasCondicionais" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.ariel.modulo.introducaoaojava.estruturascondicionais.EstruturasCondicionais" />
+      <module name="trilha-digital-coders-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ariel.modulo.introducaoaojava.estruturascondicionais.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="edu.ariel.operadoresbooleanos.OperadoresBooleanos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.ariel.operadoresbooleanos.OperadoresBooleanos" />
       <module name="trilha-digital-coders-backend" />
@@ -122,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.edu.ariel.modulo.introducaoaojava.estruturascondicionais.EstruturasCondicionais" />
         <item itemvalue="Application.EstruturasCondicionais" />
         <item itemvalue="Application.edu.ariel.operadoresbooleanos.OperadoresBooleanos" />
         <item itemvalue="Application.OperadoresBooleanos" />
         <item itemvalue="Application.Variaveis" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -178,15 +176,50 @@
       <option name="project" value="LOCAL" />
       <updated>1718642726904</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="refactor: reorganize project folders for improved structure">
+      <option name="closed" value="true" />
+      <created>1718712387779</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718712387779</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -197,6 +230,7 @@
     <MESSAGE value="feat: add Java class file to explain variables" />
     <MESSAGE value="feat: add Java class file to explain boolean operators" />
     <MESSAGE value="feat: add Java class file to explain conditional structures" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add Java class file to explain conditional structures" />
+    <MESSAGE value="refactor: reorganize project folders for improved structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: reorganize project folders for improved structure" />
   </component>
 </project>
