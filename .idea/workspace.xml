@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8966127f-03b2-4fd6-9f15-33d32a79c232" name="Changes" comment="chore: update unversioned files">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ariel/modulo/introducaojava/lacosnumericos/LacosNumericos.java" afterDir="false" />
+    <list default="true" id="8966127f-03b2-4fd6-9f15-33d32a79c232" name="Changes" comment="feat: add Java class file to explain numerical loops">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ariel/modulo/introducaojava/vetores/Vetores.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +49,7 @@
     "Application.ManipulacaoStringsEDatas.executor": "Run",
     "Application.OperadoresBooleanos.executor": "Run",
     "Application.Variaveis.executor": "Run",
+    "Application.Vetores.executor": "Run",
     "Application.edu.ariel.modulo.introducaoaojava.estruturascondicionais.EstruturasCondicionais.executor": "Run",
     "Application.edu.ariel.modulo.introducaojava.estruturascondicionais.EstruturasCondicionais.executor": "Run",
     "Application.edu.ariel.modulo.introducaojava.operadoresbooleanos.OperadoresBooleanos.executor": "Run",
@@ -64,7 +65,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LacosNumericos">
+  <component name="RunManager" selected="Application.Vetores">
     <configuration name="LacosNumericos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.ariel.modulo.introducaojava.lacosnumericos.LacosNumericos" />
       <module name="trilha-digital-coders-backend" />
@@ -84,6 +85,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="edu.ariel.modulo.introducaojava.manipulacaostringsedatas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Vetores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.ariel.modulo.introducaojava.vetores.Vetores" />
+      <module name="trilha-digital-coders-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ariel.modulo.introducaojava.vetores.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,26 +131,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="edu.ariel.operadoresbooleanos.OperadoresBooleanos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.ariel.operadoresbooleanos.OperadoresBooleanos" />
-      <module name="trilha-digital-coders-backend" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.ariel.operadoresbooleanos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Vetores" />
         <item itemvalue="Application.LacosNumericos" />
         <item itemvalue="Application.ManipulacaoStringsEDatas" />
         <item itemvalue="Application.edu.ariel.modulo.introducaojava.operadoresbooleanos.OperadoresBooleanos" />
         <item itemvalue="Application.edu.ariel.modulo.introducaojava.estruturascondicionais.EstruturasCondicionais" />
-        <item itemvalue="Application.edu.ariel.operadoresbooleanos.OperadoresBooleanos" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +229,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718717409702</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: add Java class file to explain numerical loops">
+      <option name="closed" value="true" />
+      <created>1718744648560</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718744648560</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,6 +287,7 @@
     <MESSAGE value="refactor: reorganize project folders for improved structure" />
     <MESSAGE value="feat: add Java class file to explain String and Date manipulation" />
     <MESSAGE value="chore: update unversioned files" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: update unversioned files" />
+    <MESSAGE value="feat: add Java class file to explain numerical loops" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add Java class file to explain numerical loops" />
   </component>
 </project>
