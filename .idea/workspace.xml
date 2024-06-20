@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8966127f-03b2-4fd6-9f15-33d32a79c232" name="Changes" comment="feat: add Java class file to explain numerical loops">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ariel/modulo/introducaojava/vetores/Vetores.java" afterDir="false" />
+    <list default="true" id="8966127f-03b2-4fd6-9f15-33d32a79c232" name="Changes" comment="feat: add Java class file to explain arrays">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ariel/modulo/introducaojava/funcoes/Funcoes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +44,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.EstruturasCondicionais.executor": "Run",
+    "Application.Funcoes.executor": "Run",
     "Application.LacosNumericos.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.ManipulacaoStringsEDatas.executor": "Run",
@@ -65,7 +66,20 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Vetores">
+  <component name="RunManager" selected="Application.Funcoes">
+    <configuration name="Funcoes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.ariel.modulo.introducaojava.funcoes.Funcoes" />
+      <module name="trilha-digital-coders-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ariel.modulo.introducaojava.funcoes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LacosNumericos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.ariel.modulo.introducaojava.lacosnumericos.LacosNumericos" />
       <module name="trilha-digital-coders-backend" />
@@ -105,19 +119,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="edu.ariel.modulo.introducaojava.estruturascondicionais.EstruturasCondicionais" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.ariel.modulo.introducaojava.estruturascondicionais.EstruturasCondicionais" />
-      <module name="trilha-digital-coders-backend" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.ariel.modulo.introducaojava.estruturascondicionais.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="edu.ariel.modulo.introducaojava.operadoresbooleanos.OperadoresBooleanos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.ariel.modulo.introducaojava.operadoresbooleanos.OperadoresBooleanos" />
       <module name="trilha-digital-coders-backend" />
@@ -133,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Funcoes" />
         <item itemvalue="Application.Vetores" />
         <item itemvalue="Application.LacosNumericos" />
         <item itemvalue="Application.ManipulacaoStringsEDatas" />
         <item itemvalue="Application.edu.ariel.modulo.introducaojava.operadoresbooleanos.OperadoresBooleanos" />
-        <item itemvalue="Application.edu.ariel.modulo.introducaojava.estruturascondicionais.EstruturasCondicionais" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718744648560</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: add Java class file to explain arrays">
+      <option name="closed" value="true" />
+      <created>1718747855679</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1718747855679</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -288,6 +297,7 @@
     <MESSAGE value="feat: add Java class file to explain String and Date manipulation" />
     <MESSAGE value="chore: update unversioned files" />
     <MESSAGE value="feat: add Java class file to explain numerical loops" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add Java class file to explain numerical loops" />
+    <MESSAGE value="feat: add Java class file to explain arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add Java class file to explain arrays" />
   </component>
 </project>
